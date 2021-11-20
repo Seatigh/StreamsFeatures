@@ -1,0 +1,50 @@
+*{
+    font-size: 16px;
+    font-family: 'Source Code Pro';
+}
+
+.label-cont{
+    position: absolute;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: white;
+    padding: 4px;
+    top: 132px;
+}
+
+.inner-border{
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 8px;
+}
+
+.stats{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.stat-lbl{
+    width: 128px;
+}
+
+#follower-name{
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.pad-r-8{
+    padding-right: 8px;
+}
+
+.hover-block{
+    position: absolute;
+    top: 134px;
+    width: 600px;
+    height: 300px;
+    background-color: black;
+    z-index: 10;
+}
